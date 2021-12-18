@@ -1,0 +1,29 @@
+body {
+    background-color: cadetblue;
+}
+
+.divAnalise {
+    text-align: center;font-family: Arial, Helvetica, sans-serif;color: white;margin: 15px;
+}
+
+.divResultado {
+    font-family: Arial, Helvetica, sans-serif;background-color: darkcyan;color: white;padding: 5px 10px 5px 10px;
+}
+
+.divBtnAnalisar {
+    margin: 10px;
+}
+
+#btnAnalisar {
+    width: 100%;
+    background-color: darkseagreen;
+    color: white;
+    border: solid;
+    padding: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#btnAnalisar:hover {
+    background-color: green;
+}
