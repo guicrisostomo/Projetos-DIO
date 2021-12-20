@@ -4,17 +4,17 @@ function verificaPalindromo(string) {
     let separaString;
     separaString = string.split(" ");
     
-    for (let j = 0; j < separaString.length - 1; j++) {
-        for (let i = 0; i < separaString[j].length / 2; i++) {
-            if (separaString[j][i] !== string[separaString[j].length - 1 - i]) {
-                alert('O texto não é um palíndromo!');
 
-                pedeTexto(false);
+    for (let i = 0; i < separaString[j].length / 2; i++) {
+        if (separaString[j][i] !== string[separaString[j].length - 1 - i]) {
+            alert('O texto não é um palíndromo!');
 
-                return false;
-            }
+            pedeTexto(false);
+
+            return false;
         }
     }
+    
 
     alert('O texto é um palíndromo!');
 
