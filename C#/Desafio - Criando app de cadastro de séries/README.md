@@ -1,4 +1,4 @@
-# Desafio - construindo jogo de naves
+# Desafio - criando app de cadastro de séries
 ### O que fiz em aula ?
  - Utilizei Classes, Enum e interface
  - Utilizei a interface para criar um repositório
